@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
+
 #logo {
     width: 100%;
     max-width: 300px;
@@ -6,10 +8,16 @@
     border-radius: 25px;
     background-color: #4b6587;
     height:auto;
-    font-family:Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
     
     /* width:auto; */
 }
+#navi a {
+    text-decoration: none;
+    color:white;
+}
+
 #emailbox {
     border-radius: 25px;
     background-color: #f0e5cf;
@@ -23,17 +31,23 @@
 }
 
 #comida {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color:white; 
     border-radius: 25px;
     margin-top: 20px; 
     background-color: #4b6587;
+    padding: 17x;
 }
 
 #recetario {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color:white; 
     border-radius: 25px;
     padding: 20px;
     margin-top: 20px; 
     background-color: #4b6587;  
-    padding: 20px; 
 }
 
 #body {
@@ -42,16 +56,15 @@
     background: #f1f1f1;
 
   }
-  
-  /* Header/Blog Title */
-#header {
-    font-family:'Open Sans', sans-serif;
-    padding: 30px;
-    font-size: 40px;
+
+  #footer {
+    font-family: 'Great Vibes', cursive;
+    font-size: 15px;
     text-align: center;
-    color: #f1f1f1;
-    background:  #4b6587;
-    margin-top: 20px;
+    color:white; 
+    border-radius: 25px;
+    margin-top: 10px; 
+    background-color:black;    
   }
 
 
